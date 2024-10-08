@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura>
+    <informacion_empresa>
+        <nombre_empresa>Nombre de la Empresa</nombre_empresa>
+        <direccion>Dirección, Ciudad, Estado, Código Postal</direccion>
+        <telefono>(000) 000-0000</telefono>
+        <email>email@empresa.com</email>
+        <sitio_web>www.empresa.com</sitio_web>
+    </informacion_empresa>
+
+    <cliente>
+        <nombre_cliente>Nombre del Cliente</nombre_cliente>
+        <direccion_cliente>Dirección, Ciudad, Estado, Código Postal</direccion_cliente>
+    </cliente>
+
+    <envio_a>
+        <nombre>Nombre de quien recibe</nombre>
+        <direccion_envio>Dirección, Ciudad, Estado, Código Postal</direccion_envio>
+    </envio_a>
+
+    <detalles_factura>
+        <numero_factura>12345</numero_factura>
+        <fecha_factura>mm/dd/yyyy</fecha_factura>
+        <terminos_pago>30 días</terminos_pago>
+    </detalles_factura>
+
+    <productos>
+        <producto>
+            <descripcion>Producto o servicio 1</descripcion>
+            <cantidad>0</cantidad>
+            <precio_unitario>0.00</precio_unitario>
+            <total>0.00</total>
+        </producto>
+        <producto>
+            <descripcion>Producto o servicio 2</descripcion>
+            <cantidad>0</cantidad>
+            <precio_unitario>0.00</precio_unitario>
+            <total>0.00</total>
+        </producto>
+    </productos>
+
+    <resumen>
+        <subtotal>0.00</subtotal>
+        <impuestos>0.00</impuestos>
+        <envio>0.00</envio>
+        <total>0.00</total>
+    </resumen>
+
+    <mensaje_cliente>
+        ¡Hola! Gracias por su compra. Por favor, realice el pago dentro del plazo. ¡Gracias!
+    </mensaje_cliente>
+</factura>

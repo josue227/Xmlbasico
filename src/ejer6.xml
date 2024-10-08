@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<documento>
+    <p>Mi Primer <destacar importancia>documento XML</destacar></p>
+    <p>Comienza con la etiqueta <documento></p>
+    <p>A continuación colocamos un elemento sin contenido</p>
+    <imagen fichero="imagen.gif"/>
+</documento>
+
+        //correcion
+
+        <?xml version="1.0"?>
+<documento>
+<p>Mi Primer <destacar importancia="alta">documento XML</destacar></p>
+<p>Comienza con la etiqueta &lt;documento&gt;</p>
+<p>A continuación colocamos un elemento sin contenido</p>
+<imagen fichero="imagen.gif"/>
+</documento>
+
+        // documento 2
+        <?xml version="1.0"?>
+<Libros>
+<libro id="quijote">
+    <titulo>El Quijote</titulo>
+    autor nombre=cervantes
+    <descripcion>Es el mejor libro de cervantes.</descripcion>
+</libro>
+</Libros>
+
+        // correcion
+        <?xml version="1.0"?>
+<libros>
+<libro id="quijote">
+    <titulo>El Quijote</titulo>
+    <autor nombre="cervantes"/>
+    <descripcion>Es el mejor libro de Cervantes.</descripcion>
+</libro>
+</libros>
